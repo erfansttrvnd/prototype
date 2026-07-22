@@ -10,6 +10,23 @@ This is the Quarto website source for the BIM prototype project.
 
 - [Wikidata Item Profile: Q138547468](wikidata-item.html)
 
+## Data Model Mapping to Standards
+
+| XML element | Wikidata property | CIDOC CRM |
+|---|---|---|
+| `title` | [P1476](https://www.wikidata.org/wiki/Property:P1476) | P102_has_title |
+| `creator` | [P170](https://www.wikidata.org/wiki/Property:P170) | P14_carried_out_by |
+| `date` | [P571](https://www.wikidata.org/wiki/Property:P571) | P108_has_produced |
+| `object_type` | [P31](https://www.wikidata.org/wiki/Property:P31) | E22_Human-Made_Object |
+| `materials` | [P186](https://www.wikidata.org/wiki/Property:P186) | P45_consists_of |
+| `height` | [P2048](https://www.wikidata.org/wiki/Property:P2048) | P43_has_dimension |
+| `width` | [P2049](https://www.wikidata.org/wiki/Property:P2049) | P43_has_dimension |
+| `inventory_number` | [P217](https://www.wikidata.org/wiki/Property:P217) | P1_is_identified_by |
+| `catalog_number` | [P528](https://www.wikidata.org/wiki/Property:P528) | P1_is_identified_by |
+| `location` | [P276](https://www.wikidata.org/wiki/Property:P276) | P55_has_current_location |
+
+This mapping connects the project’s XML data model with Wikidata properties and CIDOC CRM concepts. It improves interoperability and makes the exhibition data easier to reuse as Linked Open Data.
+
 ## Changelog
 
 ### 2026-04-15

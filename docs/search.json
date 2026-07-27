@@ -7,11 +7,11 @@
     "text": "This notebook-backed page queries Wikidata with SPARQL and renders a styled HTML profile.\nTo profile another item, change the item_id value in Cell 3 and re-render the site.\nhttps://www.sprengel-museum.de/ausstellungen/aktuell/abenteuer-abstraktion\n\n\n\nSELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138573242 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel\n\n\n\n\n10\n\n\n\n\n\n\n\n\n\n  \n    Catalogue Entry\n    \n    \n      Object ID Q138573242\n      Statements 10\n      Retrieved 2026-07-22 12:34 UTC\n      View source record ↗\n    \n  \n\n  \n    \n      10\n      Statements\n    \n    \n      10\n      Properties\n    \n    \n      7\n      Entity values\n    \n    \n      3\n      Literal values\n    \n  \n\n  \n    \n      Properties by statement count\n      catalog1curator1end time1instance of1location1main subject1official website1participant1start time1title1\n    \n    \n      Value type breakdown\n      \n    \n      \n        \n        \n      \n      \n        7 Entity values\n        3 Literal values\n      \n    \n    \n    \n  \n\n  All properties\n  \n    \n            \n              \n              Q138652512\n            \n            \n            \n              \n              Carina Plath\n            \n            \n            \n              \n              2025-01-05T00:00:00Z\n            \n            \n            \n              \n              exhibition\n            \n            \n            \n              \n              Sprengel Museum\n            \n            \n            \n              \n              Joar Nango\n            \n            \n            \n              \n              https://www.sprengel-museum.de/ausstellungen/archiv/joar-nango\n            \n            \n            \n              \n              Reinhard Spieler\n            \n            \n            \n              \n              2024-09-28T00:00:00Z\n            \n            \n            \n              \n              Joar Nango\n            \n            \n  \n\n\n\n\n\n\nThe following cell renders a graph visualization of the relationships for the selected Wikidata item. This helps to see how the item is connected to other entities via its properties."
   },
   {
-    "objectID": "wikidata-item.html#sparql-query-used-for-q138572982",
-    "href": "wikidata-item.html#sparql-query-used-for-q138572982",
+    "objectID": "wikidata-item.html#sparql-query-used-for-q138573242",
+    "href": "wikidata-item.html#sparql-query-used-for-q138573242",
     "title": "Wikidata Item Profile",
     "section": "",
-    "text": "SELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138572982 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel"
+    "text": "SELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138573242 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel"
   },
   {
     "objectID": "wikidata-item.html#visualizing-the-wikidata-item-as-a-graph",
@@ -46,14 +46,28 @@
     "href": "index.html",
     "title": "Home",
     "section": "",
-    "text": "This is the Quarto website source for the BIM prototype project.\n\n\n\nWikidata Item Profile: Q138547468\n\n\n\n\n\n\n\nInitialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log.\n\n\n\n\n\n\nAdd your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
+    "text": "This is the Quarto website source for the BIM prototype project.\n\n\n\nWikidata Item Profile: Q138573242\n\n\n\n\nErfan Sattarvand\nORCID iD: 0009-0001-8865-3721\n\n\n\n\n\n\nXML element\nWikidata property\nCIDOC CRM\n\n\n\n\ntitle\nP1476\nP102_has_title\n\n\ncreator\nP170\nP14_carried_out_by\n\n\ndate\nP571\nP108_has_produced\n\n\nobject_type\nP31\nE22_Human-Made_Object\n\n\nmaterials\nP186\nP45_consists_of\n\n\nheight\nP2048\nP43_has_dimension\n\n\nwidth\nP2049\nP43_has_dimension\n\n\ninventory_number\nP217\nP1_is_identified_by\n\n\ncatalog_number\nP528\nP1_is_identified_by\n\n\nlocation\nP276\nP55_has_current_location\n\n\n\nThis mapping connects the project’s XML data model with Wikidata properties and CIDOC CRM concepts. It improves interoperability and makes the exhibition data easier to reuse as Linked Open Data.\n\n\n\n\n\n\nInitialized the Quarto website and GitHub Pages workflow.\nSwitched Quarto output to docs for publishing.\nAdded a notebook-backed Wikidata item profile page with SPARQL-driven data rendering.\nAdded reusable query/render helper logic in wikidata_profile.py.\nAdded profile visual summaries and parameterized item_id input.\nSee full details in the Project Log.\n\n\n\n\n\n\nAdd your project overview and goals.\nAdd additional pages as the project grows.\nPublish automatically via GitHub Pages."
   },
   {
     "objectID": "index.html#featured-page",
     "href": "index.html#featured-page",
     "title": "Home",
     "section": "",
-    "text": "Wikidata Item Profile: Q138547468"
+    "text": "Wikidata Item Profile: Q138573242"
+  },
+  {
+    "objectID": "index.html#author",
+    "href": "index.html#author",
+    "title": "Home",
+    "section": "",
+    "text": "Erfan Sattarvand\nORCID iD: 0009-0001-8865-3721"
+  },
+  {
+    "objectID": "index.html#data-model-mapping-to-standards",
+    "href": "index.html#data-model-mapping-to-standards",
+    "title": "Home",
+    "section": "",
+    "text": "XML element\nWikidata property\nCIDOC CRM\n\n\n\n\ntitle\nP1476\nP102_has_title\n\n\ncreator\nP170\nP14_carried_out_by\n\n\ndate\nP571\nP108_has_produced\n\n\nobject_type\nP31\nE22_Human-Made_Object\n\n\nmaterials\nP186\nP45_consists_of\n\n\nheight\nP2048\nP43_has_dimension\n\n\nwidth\nP2049\nP43_has_dimension\n\n\ninventory_number\nP217\nP1_is_identified_by\n\n\ncatalog_number\nP528\nP1_is_identified_by\n\n\nlocation\nP276\nP55_has_current_location\n\n\n\nThis mapping connects the project’s XML data model with Wikidata properties and CIDOC CRM concepts. It improves interoperability and makes the exhibition data easier to reuse as Linked Open Data."
   },
   {
     "objectID": "index.html#changelog",
@@ -89,12 +103,5 @@
     "title": "Wikidata",
     "section": "",
     "text": "The profile page is generated from wikidata-item.ipynb, which:\n\nSets an item_id input (for example, Q138547468).\nBuilds a SPARQL query for all direct statements on the item.\nCalls the Wikidata Query Service endpoint.\nRenders the returned data as a styled HTML profile.\n\nThe helper module wikidata_profile.py contains reusable logic for querying, transforming, and rendering the data."
-  },
-  {
-    "objectID": "wikidata-item.html#sparql-query-used-for-q138573242",
-    "href": "wikidata-item.html#sparql-query-used-for-q138573242",
-    "title": "Wikidata Item Profile",
-    "section": "",
-    "text": "SELECT ?property ?propertyLabel ?value ?valueLabel WHERE {\n  BIND(wd:Q138573242 AS ?item)\n  ?item ?p ?statement .\n  ?property wikibase:claim ?p .\n  ?statement ?ps ?value .\n  ?property wikibase:statementProperty ?ps .\n\n  SERVICE wikibase:label { bd:serviceParam wikibase:language \"[AUTO_LANGUAGE],en\". }\n}\nORDER BY ?propertyLabel"
   }
 ]

@@ -126,6 +126,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#bim-prototype-02" id="toc-bim-prototype-02" class="nav-link active" data-scroll-target="#bim-prototype-02">BIM Prototype 02</a>
   <ul class="collapse">
   <li><a href="#featured-page" id="toc-featured-page" class="nav-link" data-scroll-target="#featured-page">Featured page</a></li>
+  <li><a href="#author" id="toc-author" class="nav-link" data-scroll-target="#author">Author</a></li>
+  <li><a href="#data-model-mapping-to-standards" id="toc-data-model-mapping-to-standards" class="nav-link" data-scroll-target="#data-model-mapping-to-standards">Data Model Mapping to Standards</a></li>
   <li><a href="#changelog" id="toc-changelog" class="nav-link" data-scroll-target="#changelog">Changelog</a>
   <ul class="collapse">
   <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section">2026-04-15</a></li>
@@ -163,8 +165,78 @@ ul.task-list li input[type="checkbox"] {
 <section id="featured-page" class="level2">
 <h2 class="anchored" data-anchor-id="featured-page">Featured page</h2>
 <ul>
-<li><a href="wikidata-item.html">Wikidata Item Profile: Q138547468</a></li>
+<li><a href="wikidata-item.html">Wikidata Item Profile: Q138573242</a></li>
 </ul>
+</section>
+<section id="author" class="level2">
+<h2 class="anchored" data-anchor-id="author">Author</h2>
+<p><strong>Erfan Sattarvand</strong><br>
+ORCID iD: <a href="https://orcid.org/0009-0001-8865-3721">0009-0001-8865-3721</a></p>
+</section>
+<section id="data-model-mapping-to-standards" class="level2">
+<h2 class="anchored" data-anchor-id="data-model-mapping-to-standards">Data Model Mapping to Standards</h2>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>XML element</th>
+<th>Wikidata property</th>
+<th>CIDOC CRM</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>title</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P1476">P1476</a></td>
+<td>P102_has_title</td>
+</tr>
+<tr class="even">
+<td><code>creator</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P170">P170</a></td>
+<td>P14_carried_out_by</td>
+</tr>
+<tr class="odd">
+<td><code>date</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P571">P571</a></td>
+<td>P108_has_produced</td>
+</tr>
+<tr class="even">
+<td><code>object_type</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P31">P31</a></td>
+<td>E22_Human-Made_Object</td>
+</tr>
+<tr class="odd">
+<td><code>materials</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P186">P186</a></td>
+<td>P45_consists_of</td>
+</tr>
+<tr class="even">
+<td><code>height</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P2048">P2048</a></td>
+<td>P43_has_dimension</td>
+</tr>
+<tr class="odd">
+<td><code>width</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P2049">P2049</a></td>
+<td>P43_has_dimension</td>
+</tr>
+<tr class="even">
+<td><code>inventory_number</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P217">P217</a></td>
+<td>P1_is_identified_by</td>
+</tr>
+<tr class="odd">
+<td><code>catalog_number</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P528">P528</a></td>
+<td>P1_is_identified_by</td>
+</tr>
+<tr class="even">
+<td><code>location</code></td>
+<td><a href="https://www.wikidata.org/wiki/Property:P276">P276</a></td>
+<td>P55_has_current_location</td>
+</tr>
+</tbody>
+</table>
+<p>This mapping connects the project’s XML data model with Wikidata properties and CIDOC CRM concepts. It improves interoperability and makes the exhibition data easier to reuse as Linked Open Data.</p>
 </section>
 <section id="changelog" class="level2">
 <h2 class="anchored" data-anchor-id="changelog">Changelog</h2>

@@ -19,6 +19,11 @@ website:
         text: Wikidata
       - href: wikidata-item.ipynb
         text: Item Profile
+## Author
+
+name:"Erfan Sattarvand" 
+ORCID iD:"0009-0001-8865-3721"
+
 
 format:
   html:

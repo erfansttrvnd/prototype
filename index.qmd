@@ -10,10 +10,6 @@ This is the Quarto website source for the BIM prototype project.
 
 - [Wikidata Item Profile: Q138573242](wikidata-item.html)
 
-## Author
-
-**Erfan Sattarvand**  
-ORCID iD: [0009-0001-8865-3721](https://orcid.org/0009-0001-8865-3721)
 
 ## Data Model Mapping to Standards
 

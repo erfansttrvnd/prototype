@@ -5,6 +5,7 @@ project:
     - index.qmd
     - project-log.qmd
     - wikidata.qmd
+    - ausstellung-joar-nango.qmd
     - wikidata-item.ipynb
 
 website:
@@ -17,6 +18,8 @@ website:
         text: Project Log
       - href: wikidata.qmd
         text: Wikidata
+      - href: ausstellung-joar-nango.qmd
+        text: Ausstellung
       - href: wikidata-item.ipynb
         text: Item Profile
 author:

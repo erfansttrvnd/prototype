@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using the metadata below."
+title: "prototype"
+authors:
+  - name: "Your Name"
+    orcid: "https://orcid.org/0009-0001-8865-3721"
+repository-code: "https://github.com/mrchristian/prototype"
+license: "MIT"

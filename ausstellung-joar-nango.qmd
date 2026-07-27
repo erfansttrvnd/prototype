@@ -1,0 +1,32 @@
+---
+title: "Joar Nango"
+format:
+  html:
+    toc: true
+---
+
+# Joar Nango
+
+Diese Seite beschreibt die Ausstellung „Joar Nango“ im Kontext dieses Quarto-Projekts.
+
+## Kurzbeschreibung
+
+Joar Nango ist im Rahmen der Ausstellungsliste des Sprengel Museums als Wikidata-Objekt erfasst. Die zugehörige Wikidata-Identifikationsnummer lautet:
+
+- Wikidata-QID: [Q138573242](https://www.wikidata.org/wiki/Q138573242)
+
+## Hintergrund
+
+Diese Seite soll zeigen, wie kulturelle Ausstellungseinträge mit Wikidata verknüpft und in einem Quarto-Projekt sichtbar gemacht werden können. Sie dient als Beispiel für die Verbindung von Ausstellungskontext, Metadaten und Linked Open Data.
+
+## Verknüpfung zum Projekt
+
+Die Inhalte dieser Seite werden im Rahmen des Projekts verwendet, um:
+
+- Ausstellungsdaten strukturiert darzustellen,
+- Wikidata-Referenzen sichtbar zu machen,
+- die Seite in die Quarto-Website zu integrieren.
+
+## Quelle
+
+- Sprengel Museum Hannover: [Joar Nango](https://www.sprengel-museum.de/ausstellungen/archiv/joar-nango)
